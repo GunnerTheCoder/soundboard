@@ -1,7 +1,13 @@
 // Define the audio files
 const audioFiles = [
-    { name: "sound1", src: "sound1.mp3" },
-    { name: "sound2", src: "sound2.mp3" },
+    { name: "india", src: "india.mp3" },
+    { name: "notcare", src: "notcare.mp3" },
+    { name: "glup", src: "gulp.mp3" },
+    { name: "roches", src: "roches.mp3" },
+    { name: "bang", src: "bang.mp3" },
+    { name: "beep", src: "beep.mp3" },
+    { name: "cap", src: "cap.mp3" },
+    { name: "noor", src: "noor.mp3" },
     // Add more audio files as needed
 ];
 
