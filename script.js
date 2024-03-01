@@ -18,7 +18,7 @@ function createButtons() {
     audioFiles.forEach(file => {
         const button = document.createElement('button');
         const img = document.createElement('img');
-        img.src = 'button.png';
+        img.src = 'Button.png';
         button.appendChild(img);
         button.addEventListener('click', () => {
             const audio = new Audio(file.src);
