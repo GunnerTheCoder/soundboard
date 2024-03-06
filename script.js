@@ -11,6 +11,22 @@ const audioFiles = [
     // Add more audio files as needed
 ];
 
+// Function to create buttons dynamically and add the file name as button text
+function createButtons() {
+    const buttonsContainer = document.querySelector('.buttons');
+
+    audioFiles.forEach(file => {
+        const button = document.createElement('button');
+        // Use the file name as the button's text
+        button.textContent = file.name; 
+        button.addEventListener('click', () => {
+            const audio = new Audio(file.src);
+            audio.play();
+        });
+        buttonsContainer.appendChild(button);
+    });
+}
+
 // Function to create buttons dynamically
 function createButtons() {
     const buttonsContainer = document.querySelector('.buttons');
